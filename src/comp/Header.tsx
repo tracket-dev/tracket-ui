@@ -19,13 +19,13 @@ const Header = () => {
       <Typography variant='h3' color={'textPrimary'}>
         Tracket
       </Typography>
-      <>
+      <div>
         <Tooltip title='Made by Seve and Wenzel'>
           <IconButton aria-label='delete'>
             <InfoIcon />
           </IconButton>
         </Tooltip>
-      </>
+      </div>
     </div>
   );
 };
