@@ -30,6 +30,8 @@ Create bracket styling React components that can fit 8 nodes.
 **How will you demonstrate completion of your objective?**
 Screenshots and code
 
+[code](https://github.com/tracket-dev/tracket-ui/blob/master/src/comp/BracketView.js)
+
 ## Objective 2: ... say your objective to accomplish here …
 
 **Why do you want to meet this objective? How will it improve your project?**
@@ -37,6 +39,8 @@ Complete main page styling, fitting a pleasing dark-theme, and coherency in visu
 
 **How will you demonstrate completion of your objective?**
 Screenshots and code
+
+![screenshot](https://github.com/tracket-dev/tracket-ui/raw/master/mainpage.png)
 
 ## Objective 3: ... say your objective to accomplish here …
 

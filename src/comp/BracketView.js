@@ -47,9 +47,7 @@ const runEventHandlers = () => {
       .text();
 
     const songArray = songName.split(' ');
-    console.log(songArray);
     songArray.shift();
-    console.log(songName, songArray);
 
     window
       .$(this)
