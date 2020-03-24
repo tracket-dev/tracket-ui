@@ -1,0 +1,27 @@
+diff --git a/node_modules/react-tournament-bracket/lib/components/BracketGame.js b/node_modules/react-tournament-bracket/lib/components/BracketGame.js
+index bc0d71d..8155e7d 100644
+--- a/node_modules/react-tournament-bracket/lib/components/BracketGame.js
++++ b/node_modules/react-tournament-bracket/lib/components/BracketGame.js
+@@ -87,7 +87,8 @@ var BracketGame = /** @class */ (function (_super) {
+         },
+         topText: function (_a) {
+             var scheduled = _a.scheduled;
+-            return new Date(scheduled).toLocaleDateString();
++            // return new Date(scheduled).toLocaleDateString();
++            return '';
+         },
+         bottomText: function (_a) {
+             var name = _a.name, bracketLabel = _a.bracketLabel;
+diff --git a/node_modules/react-tournament-bracket/lib/components/BracketGenerator.js b/node_modules/react-tournament-bracket/lib/components/BracketGenerator.js
+index 5b9af7b..00991ff 100644
+--- a/node_modules/react-tournament-bracket/lib/components/BracketGenerator.js
++++ b/node_modules/react-tournament-bracket/lib/components/BracketGenerator.js
+@@ -46,7 +46,7 @@ var makeFinals = function (_a) {
+             return (isInGroup(id) &&
+                 _.any(sides, function (_a) {
+                     var seed = _a.seed;
+-                    return seed !== null && seed.sourceGame !== null && seed.rank === 1 && seed.sourceGame.id === game.id;
++                    return seed && seed.sourceGame !== null && seed.rank === 1 && seed.sourceGame.id === game.id;
+                 }));
+         }) })); });
+     return _.chain(gamesFeedInto)

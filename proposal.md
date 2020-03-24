@@ -25,7 +25,7 @@ Tracket is a web app for tournament style brackets, but for songs. It's an innov
 ## Objective 1: say your objective here, you must have at least three objectives to get credit for the intensive… accomplishing objective should be done by soley you
 
 **Why do you want to meet this objective? How will it improve your project?**
-Create bracket styling React components that can be dynamic up to 12 nodes.
+Create bracket styling React components that can fit 8 nodes.
 
 **How will you demonstrate completion of your objective?**
 Screenshots and code
